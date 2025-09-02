@@ -12,6 +12,6 @@ public class AppController {
     @GetMapping("/")
     public String home() {
         log.info("Home endpoint accessed");
-        return "Hello, World!, v1.4";
+        return "Hello, World!, v1.5";
     }
 }
