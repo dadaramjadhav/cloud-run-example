@@ -1,0 +1,6 @@
+runtime: java17
+instance_class: F2
+entrypoint: 'java -jar target/demo-1.3.jar'
+
+env_variables:
+  SPRING_PROFILES_ACTIVE: "prod"
